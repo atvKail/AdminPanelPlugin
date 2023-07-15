@@ -1,0 +1,10 @@
+name: AdminPanel
+version: '${project.version}'
+main: controllpanel.adminpanel.AdminPanel
+api-version: 1.16
+authors: [ 4e1owek ]
+description: Panel with features that simplify server management
+website: https://vk.com/wedbeepu_nk
+commands:
+  lightning:
+    usage: /lightning
