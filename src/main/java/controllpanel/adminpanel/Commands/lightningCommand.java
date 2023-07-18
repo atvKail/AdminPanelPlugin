@@ -20,7 +20,6 @@ public class lightningCommand implements CommandExecutor {
             int count = 1;
             if (args.length >= 2 && Ints.tryParse(args[1]) != null) {
                 count = Integer.parseInt(args[1]);
-                return  true;
             }
             if (args[0].equalsIgnoreCase("@a")){
                 for (Player p : Bukkit.getOnlinePlayers()){
